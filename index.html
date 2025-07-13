@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Student Form</title>
+  <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <section id="form">
+      <h1>STUDENT FORM</h1>
+      <table class="formtable">
+        <tr>
+          <td><label for="name">Name</label></td>
+          <td><input type="text" id="name" /></td>
+        </tr>
+        <tr>
+          <td><label for="age">Age</label></td>
+          <td><input type="text" id="age" /></td>
+        </tr>
+        <tr>
+          <td><label for="gender">Gender</label></td>
+          <td>
+            <input type="radio" id="male" name="gender" value="male" />Male
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+            />Female
+          </td>
+        </tr>
+        <tr>
+          <td><label for="course">Course</label></td>
+          <td>
+            <select name="course" id="course">
+              <option value="---">---</option>
+              <option value="javascript">JavaScript</option>
+              <option value="Html">Html</option>
+              <option value="Css">CSS</option>
+              <option value="react">React</option>
+              <option value="tailwind">Tailwind</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td><label for="email">E-mail</label></td>
+          <td><input type="email" id="email" /></td>
+        </tr>
+        <tr >
+          <td >
+            <input  id="btn" type="submit" value="Save" />
+          </td>
+        </tr>
+      </table>
+    </section>
+
+    <section id="table">
+      <table class="sectable" id="data">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Course</th>
+            <th>Email</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+<script src="script.js"></script>
+  </body>
+</html>
