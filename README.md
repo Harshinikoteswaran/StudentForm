@@ -10,7 +10,7 @@ What I learned from this project:
 
 This small project boosted my confidence in JavaScript and helped me understand how real-world forms work on websites.
 
-🔗 GitHub Link: 
+🔗 GitHub Link: https://harshinikoteswaran.github.io/StudentForm/
 
 One step closer to becoming a frontend developer! 🚀
 
